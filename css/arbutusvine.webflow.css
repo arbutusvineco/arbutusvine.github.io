@@ -49,7 +49,7 @@ ul {
   margin-bottom: 40px;
   padding-left: 40px;
   font-family: Overpass, sans-serif;
-  color: #98aabb;
+  color: #75808a;
   font-size: 18px;
   line-height: 32px;
   font-weight: 300;
@@ -520,6 +520,20 @@ strong {
   color: #98aabb;
 }
 
+.orange-text {
+  color: #e89800;
+}
+
+.yellow-text {
+  color: #f8cf2b;
+}
+
+.wrapper-kin-pitch-header {
+  height: 100%;
+  padding: 20px 60px;
+  background-color: #1e2b37;
+}
+
 @media (max-width: 767px) {
   h4 {
     margin-top: 5px;
@@ -655,6 +669,18 @@ strong {
   }
   .heading {
     font-weight: 400;
+  }
+  .paragraph-2 {
+    color: #75808a;
+  }
+  .case-study-figure {
+    margin-top: 40px;
+  }
+  .wrapper-kin-pitch-header {
+    padding: 30px;
+  }
+  .list-2 {
+    line-height: 34px;
   }
 }
 
